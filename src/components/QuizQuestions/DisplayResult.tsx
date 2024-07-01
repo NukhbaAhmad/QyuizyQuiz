@@ -70,11 +70,6 @@ const DisplayResult: React.FC = () => {
           </div>
         </div>
 
-        <div>
-          <span>
-            Total Time Taken: {localStorage.getItem("totalTimeTaken")}
-          </span>
-        </div>
         <div className="mt-12">
           <button
             type="button"
