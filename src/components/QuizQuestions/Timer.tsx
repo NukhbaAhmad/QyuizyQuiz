@@ -9,7 +9,7 @@ const Timer: React.FC<TimerCompPropsT> = ({
 }) => {
   const navigate = useNavigate();
 
-  const quizDuration = 10; // Quiz Time
+  const quizDuration = 120; // Quiz Time
   const [elapsedTime, setElapsedTime] = useState<number>(0);
   const [isQuizComplete, setIsQuizComplete] = useState<boolean>(false);
 

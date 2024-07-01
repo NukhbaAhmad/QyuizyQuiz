@@ -39,8 +39,6 @@ const CustomizeQuiz: React.FC = () => {
     e: React.ChangeEvent<HTMLInputElement | HTMLSelectElement>
   ) => {
     const { name, value } = e.target;
-
-    console.log("name: ", name, "Value: ", value, "type of", typeof value);
     setCustomizeQuiz((prev) => ({
       ...prev,
       [name]: value,
